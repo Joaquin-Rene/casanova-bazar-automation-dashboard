@@ -25,10 +25,10 @@ Emprendimientos que venden por varios canales (Instagram, WhatsApp, TiendaNube, 
 ---
 
 ## 🏗️ Arquitectura
-```mermaid
 flowchart LR
-  A[Google Sheets: ventas_bazar] --> B[n8n: Get row(s)]
-  B --> C[n8n: Code (JS) KPIs + alertas]
-  C --> D[Google Sheets: resumen_diario]
-  A --> E[Streamlit Dashboard]
+  A["Google Sheets: ventas_bazar"] --> B["n8n: Get rows"]
+  B --> C["n8n: Code (JS) KPIs + alertas"]
+  C --> D["Google Sheets: resumen_diario"]
+  A --> E["Streamlit Dashboard"]
   D --> E
+
