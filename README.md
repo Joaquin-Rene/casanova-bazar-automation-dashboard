@@ -23,7 +23,10 @@ Emprendimientos que venden por varios canales (Instagram, WhatsApp, TiendaNube, 
 3) **Dashboard en Streamlit** con filtros y tabs tipo BI (Overview / Comercial / Operación / Datos).
 
 ---
+## 🔗 Demo
+**Live dashboard:** https://joaquin-rene-casanova-bazar-automation-dashboard-app-48wkk0.streamlit.app/
 
+---
 ## 🏗️ Arquitectura
 flowchart LR
   A["Google Sheets: ventas_bazar"] --> B["n8n: Get rows"]
